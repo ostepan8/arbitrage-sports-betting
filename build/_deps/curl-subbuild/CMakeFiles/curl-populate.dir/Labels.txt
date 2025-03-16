@@ -1,0 +1,14 @@
+# Target labels
+ curl-populate
+# Source files and their labels
+/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/curl-subbuild/CMakeFiles/curl-populate
+/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/curl-subbuild/CMakeFiles/curl-populate.rule
+/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/curl-subbuild/CMakeFiles/curl-populate-complete.rule
+/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build.rule
+/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure.rule
+/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download.rule
+/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install.rule
+/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir.rule
+/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch.rule
+/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test.rule
+/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update.rule
