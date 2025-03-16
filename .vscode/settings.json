@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "__split_buffer": "cpp",
+    "ios": "cpp",
+    "string": "cpp",
+    "vector": "cpp"
+  }
+}
