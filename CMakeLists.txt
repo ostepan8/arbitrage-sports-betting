@@ -13,6 +13,7 @@ FetchContent_Declare(
     json
     GIT_REPOSITORY https://github.com/nlohmann/json.git
     GIT_TAG v3.11.2
+    DOWNLOAD_EXTRACT_TIMESTAMP TRUE
 )
 FetchContent_MakeAvailable(json)
 
@@ -21,16 +22,17 @@ FetchContent_Declare(
     cpr
     GIT_REPOSITORY https://github.com/libcpr/cpr.git
     GIT_TAG 1.7.2
+    DOWNLOAD_EXTRACT_TIMESTAMP TRUE
 )
 FetchContent_MakeAvailable(cpr)
 
-add_executable(arbitrage-sports-betting
-    src/main.cpp
+# Core files
+set(CORE_SOURCES
     src/core/Odds.cpp
-    src/providers/OddsApiProvider.cpp
-    src/providers/FakeOddsProvider.cpp
-    src/providers/WebSocketOddsProvider.cpp
-    src/processors/ArbitrageProcessor.cpp
+)
+
+# Container files
+set(CONTAINER_SOURCES
     src/containers/BaseContainer.cpp
     src/containers/MoneylineContainer.cpp
     src/containers/SpreadContainer.cpp
@@ -38,5 +40,37 @@ add_executable(arbitrage-sports-betting
     src/containers/PlayerPropsContainer.cpp
 )
 
-# Link cpr (nlohmann::json is header-only so no linking needed)
-target_link_libraries(arbitrage-sports-betting PRIVATE cpr::cpr)
+# Provider files
+set(PROVIDER_SOURCES
+    src/providers/OddsApiProvider.cpp
+    src/providers/FakeOddsProvider.cpp
+    src/providers/WebSocketOddsProvider.cpp
+)
+
+# Processor files
+set(PROCESSOR_SOURCES
+    src/processors/ArbitrageProcessor.cpp
+)
+
+# New module files
+set(MODULE_SOURCES
+    src/http/HttpClient.cpp
+    src/parsing/JsonParser.cpp
+    src/logging/Logger.cpp
+)
+
+# Add executable
+add_executable(arbitrage-sports-betting
+    src/main.cpp
+    ${CORE_SOURCES}
+    ${CONTAINER_SOURCES}
+    ${PROVIDER_SOURCES}
+    ${PROCESSOR_SOURCES}
+    ${MODULE_SOURCES}
+)
+
+# Link libraries
+target_link_libraries(arbitrage-sports-betting PRIVATE
+    cpr::cpr
+    nlohmann_json::nlohmann_json
+)

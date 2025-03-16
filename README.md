@@ -1,3 +1,10 @@
+# Build
+
+cmake -DCMAKE_TOOLCHAIN_FILE=~/Desktop/vcpkg/scripts/buildsystems/vcpkg.cmake ..
+make
+
+./vcpkg install nlohmann-json
+
 # Arbitrage Sports Betting
 
 Arbitrage Sports Betting is a modular C++ application designed to identify arbitrage opportunities in sports betting. By integrating multiple odds sources—such as APIs and WebSockets—and supporting various processing techniques, this project provides a flexible framework to analyze and act on real-time betting data.

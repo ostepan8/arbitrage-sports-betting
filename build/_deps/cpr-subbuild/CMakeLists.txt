@@ -27,7 +27,7 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 
 include(ExternalProject)
 ExternalProject_Add(cpr-populate
-                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/libcpr/cpr.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "1.7.2"
+                     "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "TRUE" "GIT_REPOSITORY" "https://github.com/libcpr/cpr.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "1.7.2"
                     SOURCE_DIR          "/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/cpr-src"
                     BINARY_DIR          "/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/cpr-build"
                     CONFIGURE_COMMAND   ""

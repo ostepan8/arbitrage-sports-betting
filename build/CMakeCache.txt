@@ -23,6 +23,9 @@ BUILD_SHARED_LIBS:BOOL=ON
 //Build tests
 BUILD_TESTING:BOOL=OFF
 
+//Build the tests
+BUILD_TESTS:BOOL=OFF
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 
@@ -277,6 +280,9 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 
 //Path to a program.
 CMAKE_TAPI:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/tapi
+
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=~/Desktop/vcpkg/scripts/buildsystems/vcpkg.cmake
 
 //Enable BearSSL for SSL/TLS
 CMAKE_USE_BEARSSL:BOOL=OFF
@@ -716,6 +722,9 @@ cpr_SOURCE_DIR:STATIC=/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/bui
 
 //Value Computed by CMake
 nlohmann_json_BINARY_DIR:STATIC=/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/json-build
+
+//The directory containing a CMake configuration file for nlohmann_json.
+nlohmann_json_DIR:PATH=nlohmann_json_DIR-NOTFOUND
 
 //Value Computed by CMake
 nlohmann_json_IS_TOP_LEVEL:STATIC=OFF

@@ -370,6 +370,54 @@ src/core/Odds.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/core/Odds.cpp.s
 .PHONY : src/core/Odds.cpp.s
 
+src/http/HttpClient.o: src/http/HttpClient.cpp.o
+.PHONY : src/http/HttpClient.o
+
+# target to build an object file
+src/http/HttpClient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/http/HttpClient.cpp.o
+.PHONY : src/http/HttpClient.cpp.o
+
+src/http/HttpClient.i: src/http/HttpClient.cpp.i
+.PHONY : src/http/HttpClient.i
+
+# target to preprocess a source file
+src/http/HttpClient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/http/HttpClient.cpp.i
+.PHONY : src/http/HttpClient.cpp.i
+
+src/http/HttpClient.s: src/http/HttpClient.cpp.s
+.PHONY : src/http/HttpClient.s
+
+# target to generate assembly for a file
+src/http/HttpClient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/http/HttpClient.cpp.s
+.PHONY : src/http/HttpClient.cpp.s
+
+src/logging/Logger.o: src/logging/Logger.cpp.o
+.PHONY : src/logging/Logger.o
+
+# target to build an object file
+src/logging/Logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/logging/Logger.cpp.o
+.PHONY : src/logging/Logger.cpp.o
+
+src/logging/Logger.i: src/logging/Logger.cpp.i
+.PHONY : src/logging/Logger.i
+
+# target to preprocess a source file
+src/logging/Logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/logging/Logger.cpp.i
+.PHONY : src/logging/Logger.cpp.i
+
+src/logging/Logger.s: src/logging/Logger.cpp.s
+.PHONY : src/logging/Logger.s
+
+# target to generate assembly for a file
+src/logging/Logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/logging/Logger.cpp.s
+.PHONY : src/logging/Logger.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -393,6 +441,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/parsing/JsonParser.o: src/parsing/JsonParser.cpp.o
+.PHONY : src/parsing/JsonParser.o
+
+# target to build an object file
+src/parsing/JsonParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/parsing/JsonParser.cpp.o
+.PHONY : src/parsing/JsonParser.cpp.o
+
+src/parsing/JsonParser.i: src/parsing/JsonParser.cpp.i
+.PHONY : src/parsing/JsonParser.i
+
+# target to preprocess a source file
+src/parsing/JsonParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/parsing/JsonParser.cpp.i
+.PHONY : src/parsing/JsonParser.cpp.i
+
+src/parsing/JsonParser.s: src/parsing/JsonParser.cpp.s
+.PHONY : src/parsing/JsonParser.s
+
+# target to generate assembly for a file
+src/parsing/JsonParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/parsing/JsonParser.cpp.s
+.PHONY : src/parsing/JsonParser.cpp.s
 
 src/processors/ArbitrageProcessor.o: src/processors/ArbitrageProcessor.cpp.o
 .PHONY : src/processors/ArbitrageProcessor.o
@@ -525,9 +597,18 @@ help:
 	@echo "... src/core/Odds.o"
 	@echo "... src/core/Odds.i"
 	@echo "... src/core/Odds.s"
+	@echo "... src/http/HttpClient.o"
+	@echo "... src/http/HttpClient.i"
+	@echo "... src/http/HttpClient.s"
+	@echo "... src/logging/Logger.o"
+	@echo "... src/logging/Logger.i"
+	@echo "... src/logging/Logger.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/parsing/JsonParser.o"
+	@echo "... src/parsing/JsonParser.i"
+	@echo "... src/parsing/JsonParser.s"
 	@echo "... src/processors/ArbitrageProcessor.o"
 	@echo "... src/processors/ArbitrageProcessor.i"
 	@echo "... src/processors/ArbitrageProcessor.s"
