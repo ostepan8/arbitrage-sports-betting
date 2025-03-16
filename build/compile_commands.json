@@ -13,9 +13,9 @@
 },
 {
   "directory": "/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build",
-  "command": "/usr/bin/clang++  -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/include -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/cpr-src/include -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/cpr-build/cpr_generated_includes -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/curl-src/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o CMakeFiles/arbitrage-sports-betting.dir/src/providers/ApiOddsProvider.cpp.o -c /Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/providers/ApiOddsProvider.cpp",
-  "file": "/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/providers/ApiOddsProvider.cpp",
-  "output": "CMakeFiles/arbitrage-sports-betting.dir/src/providers/ApiOddsProvider.cpp.o"
+  "command": "/usr/bin/clang++  -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/include -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/cpr-src/include -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/cpr-build/cpr_generated_includes -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/curl-src/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o CMakeFiles/arbitrage-sports-betting.dir/src/providers/OddsApiProvider.cpp.o -c /Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/providers/OddsApiProvider.cpp",
+  "file": "/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/providers/OddsApiProvider.cpp",
+  "output": "CMakeFiles/arbitrage-sports-betting.dir/src/providers/OddsApiProvider.cpp.o"
 },
 {
   "directory": "/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build",

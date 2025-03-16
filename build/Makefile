@@ -418,30 +418,6 @@ src/processors/ArbitrageProcessor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.s
 .PHONY : src/processors/ArbitrageProcessor.cpp.s
 
-src/providers/ApiOddsProvider.o: src/providers/ApiOddsProvider.cpp.o
-.PHONY : src/providers/ApiOddsProvider.o
-
-# target to build an object file
-src/providers/ApiOddsProvider.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/providers/ApiOddsProvider.cpp.o
-.PHONY : src/providers/ApiOddsProvider.cpp.o
-
-src/providers/ApiOddsProvider.i: src/providers/ApiOddsProvider.cpp.i
-.PHONY : src/providers/ApiOddsProvider.i
-
-# target to preprocess a source file
-src/providers/ApiOddsProvider.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/providers/ApiOddsProvider.cpp.i
-.PHONY : src/providers/ApiOddsProvider.cpp.i
-
-src/providers/ApiOddsProvider.s: src/providers/ApiOddsProvider.cpp.s
-.PHONY : src/providers/ApiOddsProvider.s
-
-# target to generate assembly for a file
-src/providers/ApiOddsProvider.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/providers/ApiOddsProvider.cpp.s
-.PHONY : src/providers/ApiOddsProvider.cpp.s
-
 src/providers/FakeOddsProvider.o: src/providers/FakeOddsProvider.cpp.o
 .PHONY : src/providers/FakeOddsProvider.o
 
@@ -465,6 +441,30 @@ src/providers/FakeOddsProvider.s: src/providers/FakeOddsProvider.cpp.s
 src/providers/FakeOddsProvider.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/providers/FakeOddsProvider.cpp.s
 .PHONY : src/providers/FakeOddsProvider.cpp.s
+
+src/providers/OddsApiProvider.o: src/providers/OddsApiProvider.cpp.o
+.PHONY : src/providers/OddsApiProvider.o
+
+# target to build an object file
+src/providers/OddsApiProvider.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/providers/OddsApiProvider.cpp.o
+.PHONY : src/providers/OddsApiProvider.cpp.o
+
+src/providers/OddsApiProvider.i: src/providers/OddsApiProvider.cpp.i
+.PHONY : src/providers/OddsApiProvider.i
+
+# target to preprocess a source file
+src/providers/OddsApiProvider.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/providers/OddsApiProvider.cpp.i
+.PHONY : src/providers/OddsApiProvider.cpp.i
+
+src/providers/OddsApiProvider.s: src/providers/OddsApiProvider.cpp.s
+.PHONY : src/providers/OddsApiProvider.s
+
+# target to generate assembly for a file
+src/providers/OddsApiProvider.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/providers/OddsApiProvider.cpp.s
+.PHONY : src/providers/OddsApiProvider.cpp.s
 
 src/providers/WebSocketOddsProvider.o: src/providers/WebSocketOddsProvider.cpp.o
 .PHONY : src/providers/WebSocketOddsProvider.o
@@ -531,12 +531,12 @@ help:
 	@echo "... src/processors/ArbitrageProcessor.o"
 	@echo "... src/processors/ArbitrageProcessor.i"
 	@echo "... src/processors/ArbitrageProcessor.s"
-	@echo "... src/providers/ApiOddsProvider.o"
-	@echo "... src/providers/ApiOddsProvider.i"
-	@echo "... src/providers/ApiOddsProvider.s"
 	@echo "... src/providers/FakeOddsProvider.o"
 	@echo "... src/providers/FakeOddsProvider.i"
 	@echo "... src/providers/FakeOddsProvider.s"
+	@echo "... src/providers/OddsApiProvider.o"
+	@echo "... src/providers/OddsApiProvider.i"
+	@echo "... src/providers/OddsApiProvider.s"
 	@echo "... src/providers/WebSocketOddsProvider.o"
 	@echo "... src/providers/WebSocketOddsProvider.i"
 	@echo "... src/providers/WebSocketOddsProvider.s"

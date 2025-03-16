@@ -27,7 +27,7 @@ FetchContent_MakeAvailable(cpr)
 add_executable(arbitrage-sports-betting
     src/main.cpp
     src/core/Odds.cpp
-    src/providers/ApiOddsProvider.cpp
+    src/providers/OddsApiProvider.cpp
     src/providers/FakeOddsProvider.cpp
     src/providers/WebSocketOddsProvider.cpp
     src/processors/ArbitrageProcessor.cpp
