@@ -5,14 +5,13 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
-  # You can trigger on other events as needed
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     env:
-      # This will be injected from your GitHub secrets.
+      # Inject your API key securely from GitHub secrets.
       ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
 
     steps:
@@ -24,7 +23,6 @@ jobs:
 
       - name: Install dependencies via vcpkg
         run: |
-          # Clone vcpkg (or you can set up your project to use vcpkg in a different way)
           git clone https://github.com/microsoft/vcpkg.git
           cd vcpkg
           ./bootstrap-vcpkg.sh
@@ -32,14 +30,22 @@ jobs:
           cd ..
         shell: bash
 
+      - name: Create/Clear Build Directory
+        run: |
+          if [ -d build ]; then
+            rm -rf build
+          fi
+          mkdir build
+        shell: bash
+
       - name: Configure and Build with CMake
         run: |
-          [ -d build ] || mkdir build
           cd build
           cmake -DCMAKE_TOOLCHAIN_FILE=../vcpkg/scripts/buildsystems/vcpkg.cmake ..
           cmake --build .
         shell: bash
 
+      # Uncomment to run tests
       # - name: Run Tests
       #   run: |
       #     cd build
