@@ -466,29 +466,29 @@ src/parsing/JsonParser.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/parsing/JsonParser.cpp.s
 .PHONY : src/parsing/JsonParser.cpp.s
 
-src/processors/ArbitrageProcessor.o: src/processors/ArbitrageProcessor.cpp.o
-.PHONY : src/processors/ArbitrageProcessor.o
+src/processors/SimpleArbitrageProcessor.o: src/processors/SimpleArbitrageProcessor.cpp.o
+.PHONY : src/processors/SimpleArbitrageProcessor.o
 
 # target to build an object file
-src/processors/ArbitrageProcessor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.o
-.PHONY : src/processors/ArbitrageProcessor.cpp.o
+src/processors/SimpleArbitrageProcessor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.o
+.PHONY : src/processors/SimpleArbitrageProcessor.cpp.o
 
-src/processors/ArbitrageProcessor.i: src/processors/ArbitrageProcessor.cpp.i
-.PHONY : src/processors/ArbitrageProcessor.i
+src/processors/SimpleArbitrageProcessor.i: src/processors/SimpleArbitrageProcessor.cpp.i
+.PHONY : src/processors/SimpleArbitrageProcessor.i
 
 # target to preprocess a source file
-src/processors/ArbitrageProcessor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.i
-.PHONY : src/processors/ArbitrageProcessor.cpp.i
+src/processors/SimpleArbitrageProcessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.i
+.PHONY : src/processors/SimpleArbitrageProcessor.cpp.i
 
-src/processors/ArbitrageProcessor.s: src/processors/ArbitrageProcessor.cpp.s
-.PHONY : src/processors/ArbitrageProcessor.s
+src/processors/SimpleArbitrageProcessor.s: src/processors/SimpleArbitrageProcessor.cpp.s
+.PHONY : src/processors/SimpleArbitrageProcessor.s
 
 # target to generate assembly for a file
-src/processors/ArbitrageProcessor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.s
-.PHONY : src/processors/ArbitrageProcessor.cpp.s
+src/processors/SimpleArbitrageProcessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage-sports-betting.dir/build.make CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.s
+.PHONY : src/processors/SimpleArbitrageProcessor.cpp.s
 
 src/providers/FakeOddsProvider.o: src/providers/FakeOddsProvider.cpp.o
 .PHONY : src/providers/FakeOddsProvider.o
@@ -609,9 +609,9 @@ help:
 	@echo "... src/parsing/JsonParser.o"
 	@echo "... src/parsing/JsonParser.i"
 	@echo "... src/parsing/JsonParser.s"
-	@echo "... src/processors/ArbitrageProcessor.o"
-	@echo "... src/processors/ArbitrageProcessor.i"
-	@echo "... src/processors/ArbitrageProcessor.s"
+	@echo "... src/processors/SimpleArbitrageProcessor.o"
+	@echo "... src/processors/SimpleArbitrageProcessor.i"
+	@echo "... src/processors/SimpleArbitrageProcessor.s"
 	@echo "... src/providers/FakeOddsProvider.o"
 	@echo "... src/providers/FakeOddsProvider.i"
 	@echo "... src/providers/FakeOddsProvider.s"

@@ -49,7 +49,7 @@ set(PROVIDER_SOURCES
 
 # Processor files
 set(PROCESSOR_SOURCES
-    src/processors/ArbitrageProcessor.cpp
+    src/processors/SimpleArbitrageProcessor.cpp
 )
 
 # New module files

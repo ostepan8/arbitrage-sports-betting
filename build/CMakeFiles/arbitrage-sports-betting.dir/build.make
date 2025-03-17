@@ -209,19 +209,19 @@ CMakeFiles/arbitrage-sports-betting.dir/src/providers/WebSocketOddsProvider.cpp.
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage-sports-betting.dir/src/providers/WebSocketOddsProvider.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/providers/WebSocketOddsProvider.cpp -o CMakeFiles/arbitrage-sports-betting.dir/src/providers/WebSocketOddsProvider.cpp.s
 
-CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.o: CMakeFiles/arbitrage-sports-betting.dir/flags.make
-CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.o: /Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/processors/ArbitrageProcessor.cpp
-CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.o: CMakeFiles/arbitrage-sports-betting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.o -MF CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.o.d -o CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.o -c /Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/processors/ArbitrageProcessor.cpp
+CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.o: CMakeFiles/arbitrage-sports-betting.dir/flags.make
+CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.o: /Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/processors/SimpleArbitrageProcessor.cpp
+CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.o: CMakeFiles/arbitrage-sports-betting.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.o -MF CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.o.d -o CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.o -c /Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/processors/SimpleArbitrageProcessor.cpp
 
-CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/processors/ArbitrageProcessor.cpp > CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.i
+CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/processors/SimpleArbitrageProcessor.cpp > CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.i
 
-CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/processors/ArbitrageProcessor.cpp -o CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.s
+CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/processors/SimpleArbitrageProcessor.cpp -o CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.s
 
 CMakeFiles/arbitrage-sports-betting.dir/src/http/HttpClient.cpp.o: CMakeFiles/arbitrage-sports-betting.dir/flags.make
 CMakeFiles/arbitrage-sports-betting.dir/src/http/HttpClient.cpp.o: /Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/http/HttpClient.cpp
@@ -277,7 +277,7 @@ arbitrage__sports__betting_OBJECTS = \
 "CMakeFiles/arbitrage-sports-betting.dir/src/providers/OddsApiProvider.cpp.o" \
 "CMakeFiles/arbitrage-sports-betting.dir/src/providers/FakeOddsProvider.cpp.o" \
 "CMakeFiles/arbitrage-sports-betting.dir/src/providers/WebSocketOddsProvider.cpp.o" \
-"CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.o" \
+"CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.o" \
 "CMakeFiles/arbitrage-sports-betting.dir/src/http/HttpClient.cpp.o" \
 "CMakeFiles/arbitrage-sports-betting.dir/src/parsing/JsonParser.cpp.o" \
 "CMakeFiles/arbitrage-sports-betting.dir/src/logging/Logger.cpp.o"
@@ -295,7 +295,7 @@ arbitrage-sports-betting: CMakeFiles/arbitrage-sports-betting.dir/src/containers
 arbitrage-sports-betting: CMakeFiles/arbitrage-sports-betting.dir/src/providers/OddsApiProvider.cpp.o
 arbitrage-sports-betting: CMakeFiles/arbitrage-sports-betting.dir/src/providers/FakeOddsProvider.cpp.o
 arbitrage-sports-betting: CMakeFiles/arbitrage-sports-betting.dir/src/providers/WebSocketOddsProvider.cpp.o
-arbitrage-sports-betting: CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.o
+arbitrage-sports-betting: CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.o
 arbitrage-sports-betting: CMakeFiles/arbitrage-sports-betting.dir/src/http/HttpClient.cpp.o
 arbitrage-sports-betting: CMakeFiles/arbitrage-sports-betting.dir/src/parsing/JsonParser.cpp.o
 arbitrage-sports-betting: CMakeFiles/arbitrage-sports-betting.dir/src/logging/Logger.cpp.o

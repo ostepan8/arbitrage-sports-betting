@@ -61,9 +61,9 @@
 },
 {
   "directory": "/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build",
-  "command": "/usr/bin/clang++  -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/include -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/cpr-src/include -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/cpr-build/cpr_generated_includes -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/curl-src/include -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/json-src/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.o -c /Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/processors/ArbitrageProcessor.cpp",
-  "file": "/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/processors/ArbitrageProcessor.cpp",
-  "output": "CMakeFiles/arbitrage-sports-betting.dir/src/processors/ArbitrageProcessor.cpp.o"
+  "command": "/usr/bin/clang++  -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/include -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/cpr-src/include -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/cpr-build/cpr_generated_includes -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/curl-src/include -I/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build/_deps/json-src/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.o -c /Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/processors/SimpleArbitrageProcessor.cpp",
+  "file": "/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/src/processors/SimpleArbitrageProcessor.cpp",
+  "output": "CMakeFiles/arbitrage-sports-betting.dir/src/processors/SimpleArbitrageProcessor.cpp.o"
 },
 {
   "directory": "/Users/ostepan/Desktop/GitHub/arbitrage-sports-betting/build",
